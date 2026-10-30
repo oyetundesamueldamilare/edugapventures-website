@@ -1,0 +1,16 @@
+{
+  "name": "edugap-ventures-website",
+  "version": "1.0.0",
+  "description": "Corporate website for EDUGAP Ventures Limited",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y browser-sync start --server --files \"index.html, css/*.css, js/*.js\""
+  },
+  "keywords": [
+    "edugap",
+    "education",
+    "portal"
+  ],
+  "author": "EDUGAP Ventures Limited",
+  "license": "ISC"
+}

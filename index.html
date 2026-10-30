@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUGAP Ventures Limited | Bridging Education and Funding</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="EDUGAP Ventures Limited promotes educational institutions, computer literacy centers, study loans, and advanced IT services in Lagos Nigeria and across the world.">
+  <meta name="keywords" content="EDUGAP, Edugap Ventures, educational institutions Nigeria, computer literacy center, scholarships Nigeria, IT services Lagos, study loans Nigeria">
+  <meta name="author" content="EDUGAP Ventures Limited">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="EDUGAP Ventures Limited | Bridging Education and Funding">
+  <meta property="og:description" content="Promoting, establishing, and managing educational academies, technical training hubs, and academic funding initiatives in Lagos and across the world.">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Background Blur blobs for aesthetic styling -->
+  <div class="bg-blob bg-blob-emerald"></div>
+  <div class="bg-blob bg-blob-gold"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo-container" id="navLogo">
+        <!-- Custom Inline Vector Logo -->
+        <svg class="logo-icon-svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 8L56 20L32 32L8 20L32 8Z" fill="url(#logoGrad1)" stroke="var(--primary-color)" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M14 23V38C14 44 22 48 32 48C42 48 50 44 50 38V23" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M32 32V48" stroke="var(--secondary-light)" stroke-width="2" stroke-dasharray="3 3"/>
+          <circle cx="32" cy="32" r="4" fill="var(--secondary-color)"/>
+          <circle cx="14" cy="30" r="2" fill="var(--primary-light)"/>
+          <circle cx="50" cy="30" r="2" fill="var(--primary-light)"/>
+          <defs>
+            <linearGradient id="logoGrad1" x1="8" y1="8" x2="56" y2="32" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#10B981"/>
+              <stop offset="1" stop-color="#0D5C3A"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="logo-text">
+          EDUGAP
+          <span>Ventures Ltd</span>
+        </div>
+      </a>
+      
+      <!-- Nav Links -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Our Objectives</a></li>
+        <li><a href="#hub" class="nav-link">Interactive Hub</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="nav-link">Consultation</a></li>
+        <li class="nav-actions">
+         <button class="theme-toggle-btn" aria-label="Toggle Theme">
+  <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="4"></circle>
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+  </svg>
+  
+  <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+  </svg>
+</button>
+        </li>
+      </ul>
+      
+      <!-- Mobile toggler & Theme switch -->
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button class="theme-toggle-btn" aria-label="Toggle dark/light theme" id="themeTogglerDesktop" style="display: none;">
+          <!-- desktop specific theme toggle -->
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Open mobile navigation" id="mobileMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main>
+    
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container grid-2">
+        <div class="hero-content reveal-left">
+          <div class="hero-tag">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            Empowering The Nigerian Scholar
+          </div>
+          <h1 class="hero-title">
+            Bridging the Gap Between <span class="highlight-emerald">Education</span> & <span class="highlight-gold">Funding</span>
+          </h1>
+          <p class="lead">
+            EDUGAP Ventures Limited promotes, establishes, and assists in admission to foreign educational institutions,  technical training, and access to loans to advance knowledge across the world.
+          </p>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+            From Admission to top colleges and academies in Arts, Commerce, Sciences, technology, and Business Administration, to supporting with educational loans — we are committed to providing value and quality service to students and education providers alike.
+          </p>
+          <div class="hero-cta">
+            <a href="#hub" class="btn btn-primary">Check Scholarship Eligibility</a>
+            <a href="#services" class="btn btn-outline">Our Core Objectives</a>
+          </div>
+        </div>
+        
+        <!-- Hero Right Column Visual -->
+        <div class="hero-graphic-container reveal-right">
+          <div class="hero-shape-bg"></div>
+          
+          <!-- Graphic floating elements -->
+          <div class="floating-badge badge-1">
+            <div class="badge-icon emerald">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.49 12.07L12 15.6l6.51-3.53c.12-.07.24-.1.37-.1.2 0 .39.08.53.24.2.22.18.57-.04.77L12.7 17.2c-.37.33-.92.33-1.3 0L4.73 13.15c-.22-.2-.24-.55-.04-.77.2-.21.55-.23.8-.01z"/></svg>
+            </div>
+            <div class="badge-info">
+              <span class="badge-num">₦2B+</span>
+              <span class="badge-lbl">Loans Disbursed</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-2">
+            <div class="badge-icon gold">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 5h16v11H4V5z"/></svg>
+            </div>
+            <div class="badge-info">
+              <span class="badge-num">hundreds</span>
+              <span class="badge-lbl">Students Supported</span>
+            </div>
+          </div>
+
+          <!-- Glassmorphic illustrative tech panel -->
+          <div class="hero-main-card glass-panel hover-grow">
+            <svg class="hero-svg-illustration" viewBox="0 0 400 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Illustration Background -->
+              <rect width="400" height="350" rx="16" fill="url(#heroBackGrad)" />
+              
+              <!-- Dashboard mockup representation -->
+              <rect x="30" y="30" width="340" height="290" rx="12" fill="#1E293B" opacity="0.95" />
+              <rect x="30" y="30" width="340" height="40" rx="12" fill="#0F172A" />
+              <circle cx="50" cy="50" r="5" fill="#EF4444"/>
+              <circle cx="65" cy="50" r="5" fill="#F59E0B"/>
+              <circle cx="80" cy="50" r="5" fill="#10B981"/>
+              <!-- Title bar text -->
+              <text x="200" y="54" fill="#94A3B8" font-family="Outfit" font-size="11" font-weight="600" text-anchor="middle">EDUGAP Analytics Dashboard</text>
+              <text x="340" y="54" fill="#475569" font-family="Outfit" font-size="9" text-anchor="end">Live</text>
+              <circle cx="350" cy="51" r="3" fill="#10B981"/>
+
+              <!-- Sidebar nav labels -->
+              <rect x="30" y="70" width="50" height="250" fill="#0F172A" opacity="0.5"/>
+              <text x="55" y="92" fill="#64748B" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle">Home</text>
+              <text x="55" y="112" fill="#10B981" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle" font-weight="bold">Stats</text>
+              <text x="55" y="132" fill="#64748B" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle">Loans</text>
+              <text x="55" y="152" fill="#64748B" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle">Programs</text>
+              <text x="55" y="172" fill="#64748B" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle">Students</text>
+              <text x="55" y="192" fill="#64748B" font-family="Plus Jakarta Sans" font-size="7" text-anchor="middle">Reports</text>
+
+              <!-- Chart title and subtitle -->
+              <text x="95" y="88" fill="#E2E8F0" font-family="Outfit" font-size="13" font-weight="bold">Student Enrollment Growth</text>
+              <text x="95" y="102" fill="#64748B" font-family="Plus Jakarta Sans" font-size="9">Academic year 2024 – 2026 across all centers</text>
+
+              <!-- Y-axis labels -->
+              <text x="88" y="120" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="end">10k</text>
+              <text x="88" y="155" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="end">7.5k</text>
+              <text x="88" y="215" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="end">5k</text>
+              <text x="88" y="275" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="end">2.5k</text>
+
+              <!-- X-axis labels -->
+              <text x="120" y="292" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="middle">Q1</text>
+              <text x="200" y="292" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="middle">Q2</text>
+              <text x="280" y="292" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="middle">Q3</text>
+              <text x="350" y="292" fill="#475569" font-family="Plus Jakarta Sans" font-size="8" text-anchor="middle">Q4</text>
+
+              <!-- Grid Lines -->
+              <line x1="90" y1="115" x2="360" y2="115" stroke="#334155" stroke-dasharray="4 4"/>
+              <line x1="90" y1="150" x2="360" y2="150" stroke="#334155" stroke-dasharray="4 4"/>
+              <line x1="90" y1="210" x2="360" y2="210" stroke="#334155" stroke-dasharray="4 4"/>
+              <line x1="90" y1="270" x2="360" y2="270" stroke="#334155" />
+              
+              <!-- Simulated graph line representing literacy growth -->
+              <path d="M95 250 L140 195 L200 215 L280 135 L350 105" stroke="url(#heroLineGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M95 250 L140 195 L200 215 L280 135 L350 105 V270 H95 Z" fill="url(#heroFillGrad)" opacity="0.1" />
+              <!-- Data point dots -->
+              <circle cx="95" cy="250" r="4" fill="#10B981"/>
+              <circle cx="140" cy="195" r="4" fill="#10B981"/>
+              <circle cx="200" cy="215" r="4" fill="#F59E0B"/>
+              <circle cx="280" cy="135" r="4" fill="#F59E0B"/>
+              <circle cx="350" cy="105" r="4" fill="#6366F1"/>
+
+              <!-- KPI metric cards row at bottom -->
+              <rect x="95" y="300" width="78" height="38" rx="6" fill="#334155" opacity="0.7"/>
+              <text x="105" y="316" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="7">Admissions</text>
+              <text x="105" y="330" fill="#10B981" font-family="Outfit" font-size="12" font-weight="bold">+82% YoY</text>
+
+              <rect x="183" y="300" width="78" height="38" rx="6" fill="#334155" opacity="0.7"/>
+              <text x="193" y="316" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="7">Active Loans</text>
+              <text x="193" y="330" fill="#F59E0B" font-family="Outfit" font-size="12" font-weight="bold">₦2B+</text>
+
+              <rect x="271" y="300" width="78" height="38" rx="6" fill="#334155" opacity="0.7"/>
+              <text x="281" y="316" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="7">Centres Open</text>
+              <text x="281" y="330" fill="#818CF8" font-family="Outfit" font-size="12" font-weight="bold">24 Hubs</text>
+              
+              <defs>
+                <linearGradient id="heroBackGrad" x1="0" y1="0" x2="400" y2="350" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#0D5C3A"/>
+                  <stop offset="1" stop-color="#6366F1"/>
+                </linearGradient>
+                <linearGradient id="heroLineGrad" x1="50" y1="250" x2="350" y2="90" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#10B981"/>
+                  <stop offset="0.5" stop-color="#F59E0B"/>
+                  <stop offset="1" stop-color="#6366F1"/>
+                </linearGradient>
+                <linearGradient id="heroFillGrad" x1="0" y1="90" x2="0" y2="280" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#10B981" stop-opacity="1"/>
+                  <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Partners section (educational board credentials) -->
+    <!-- <section class="partners-section" id="partners">
+      <div class="container">
+        <div class="partners-slider">
+          <div class="partner-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+            Ministry of Education
+          </div>
+          <div class="partner-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            NITDA Nigeria
+          </div>
+          <div class="partner-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            LSETF
+          </div>
+          <div class="partner-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            Lagos Innovation
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- 3. Core Objectives / Services Section -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Our Core Objectives</h2>
+          <p>EDUGAP Ventures Limited was established with a clear mandate: to promote, bridge education-funding gaps, and assist with admission to top educational institutions for the advancement of knowledge and education. Each objective below reflects a pillar of that mandate.</p>
+        </div>
+        
+        <div class="grid-3 services-container">
+          
+          <!-- Card 1: Educational Institutions Management -->
+          <div class="service-card glass-panel hover-grow reveal-left delay-100">
+            <div class="service-icon-box emerald">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+              </svg>
+            </div>
+            <h3>Admission Management</h3>
+            <p>
+              We provide admission services to students for enrollment in top educational institutions in the fields of Arts, Commerce, Sciences, Technology, and Business Administration — and any other program appropriate for the advancement of education.
+            </p>
+            <a href="#hub" class="service-learn-more">
+              Explore Academy
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 2: Digital Literacy Centers -->
+          <div class="service-card glass-panel hover-grow reveal delay-200">
+            <div class="service-icon-box indigo">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+              </svg>
+            </div>
+            <h3>Centres of Learning</h3>
+            <p>
+              We intend to set up, own, and operate centres of learning, reading rooms, hostels, boarding houses, computer literacy centres, data processing centres, and information centres. We utilize electronic, mechanical, and other developed techniques for the advancement of learning and knowledge.
+            </p>
+            <a href="#hub" class="service-learn-more">
+              Find Hub near you
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 3: Scholarships & Loans -->
+          <div class="service-card glass-panel hover-grow reveal-right delay-300">
+            <div class="service-icon-box gold">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+              </svg>
+            </div>
+            <h3>Funding & Student Aid</h3>
+            <p>
+              We offer study loans to support scholars in their tuition, books, stipends, and also offer educational career support, for the advancement of knowledge, education, and literacy both within and outside Nigeria. Our goal is to provide value and quality service to students and education providers.
+            </p>
+            <a href="#hub" class="service-learn-more">
+              Apply for Funding
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 4: Professional Training Forums -->
+          <div class="service-card glass-panel hover-grow reveal-left delay-400">
+            <div class="service-icon-box gold">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+              </svg>
+            </div>
+            <h3>Professional Training & Knowledge Forums</h3>
+            <p>
+              We promote and disseminate knowledge, create awareness, and provide a common forum of interaction amongst academicians, professionals, and government agencies. We organise training courses and special programmes across all disciplines — including online, distance, and correspondence courses, coaching classes for any stream, level, or profession, and certified courses in Information Technology, Software, Hardware, and Networking.
+            </p>
+            <a href="#hub" class="service-learn-more">
+              Browse Course List
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 5: Information Technology Services -->
+          <!-- <div class="service-card glass-panel hover-grow reveal delay-500">
+            <div class="service-icon-box indigo">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+              </svg>
+            </div>
+            <h3>Information Technology Services</h3>
+            <p>
+              We carry on the business of information technology services — delivering enterprise-grade software consulting, hardware integration, network architecture, cybersecurity solutions, and digital system rollouts. We also provide consultancy to assist the promotion and advancement of trade, commerce, art, science, and technology.
+            </p>
+            <a href="#contact" class="service-learn-more">
+              Book IT Audit
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- 4. Interactive EDUGAP Hub Section -->
+    <section id="hub" style="background-color: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">The EDUGAP Hub</h2>
+          <p>Search available professional IT training courses or estimate your scholarship eligibility instantly through our interactive digital portal.</p>
+        </div>
+
+        <div class="hub-card glass-panel reveal">
+          <!-- Hub Tabs header selection -->
+          <div class="hub-tabs-header">
+            <button class="hub-tab-btn active" data-tab="explorerTab">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+              IT Academy Course Explorer
+            </button>
+            <button class="hub-tab-btn" data-tab="checkerTab">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+              Scholarship & Aid Checker
+            </button>
+          </div>
+          <!-- PANEL A: Scholarship Checker Wizard -->
+          <div class="hub-tab-content" id="checkerTab">
+            <div class="checker-wizard">
+              
+              <!-- Progress indicator steps -->
+              <div class="wizard-steps">
+                <div class="wizard-progress-bar" id="wizardProgress"></div>
+                <div class="wizard-step active">1</div>
+                <div class="wizard-step">2</div>
+                <div class="wizard-step">3</div>
+                <div class="wizard-step">Result</div>
+              </div>
+
+              <!-- Wizard panel 1 -->
+              <div class="wizard-panel active" data-question="level" data-step="0">
+                <h4>What is your current/target educational level?</h4>
+                <div class="option-grid">
+                  <div class="option-card" data-value="secondary">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+                    <span>Secondary School</span>
+                  </div>
+                  <div class="option-card" data-value="undergrad">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+                    <span>Undergraduate</span>
+                  </div>
+                  <div class="option-card" data-value="graduate">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    <span>Professional/Graduate</span>
+                  </div>
+                  <div class="option-card" data-value="technical">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.3C.5 6.7.9 9.8 2.9 11.8c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.6z"/></svg>
+                    <span>Technical Training</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wizard panel 2 -->
+              <div class="wizard-panel" data-question="purpose" data-step="1">
+                <h4>What is the primary support area you require?</h4>
+                <div class="option-grid">
+                  <div class="option-card" data-value="need">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8z"/></svg>
+                    <span>Financial Tuition Need</span>
+                  </div>
+                  <div class="option-card" data-value="merit">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <span>Academic Excellence</span>
+                  </div>
+                  <div class="option-card" data-value="stipend">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+                    <span>Books & Study Stipend</span>
+                  </div>
+                  <div class="option-card" data-value="loan">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+                    <span>Educational Support Loan</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wizard panel 3 -->
+              <div class="wizard-panel" data-question="gpa" data-step="2">
+                <h4>What is your recent academic grade standing?</h4>
+                <div class="option-grid">
+                  <div class="option-card" data-value="excellent">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    <span>First Class / A-Grade</span>
+                  </div>
+                  <div class="option-card" data-value="good">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    <span>Second Class / B-Grade</span>
+                  </div>
+                  <div class="option-card" data-value="average">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 13H5v-2h14v2z"/></svg>
+                    <span>Pass / C-Grade</span>
+                  </div>
+                  <div class="option-card" data-value="none">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    <span>Not Applicable</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wizard results display panel -->
+              <div class="wizard-panel" data-step="3">
+                <div class="result-card">
+                  <div class="result-status-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  </div>
+                  <span>Estimated Funding Approval:</span>
+                  <div class="result-percentage" id="eligibilityPercentage">80%</div>
+                  <p class="result-desc" id="eligibilityDesc">You qualify for partial grant options...</p>
+                  
+                  <!-- Lead claim form -->
+                  <div class="result-action-form">
+                    <div style="text-align: left; margin-bottom: 0.5rem;">
+                      <label style="font-size: 0.85rem; font-weight: bold; color: var(--text-secondary);">Enter Email to Save Approval:</label>
+                    </div>
+                    <input type="email" id="scholarshipEmail" class="form-control" placeholder="yourname@gmail.com" required>
+                    <input type="tel" id="scholarshipPhone" class="form-control" placeholder="Phone Number (e.g. 080...)" required>
+                    <button class="btn btn-primary" id="claimScholarshipBtn" style="width: 100%;">Claim Funding Pre-approval</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wizard Navigation buttons footer -->
+              <div class="wizard-nav">
+                <button class="btn btn-outline" id="wizardPrev" style="visibility: hidden;">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                  Back
+                </button>
+                <button class="btn btn-primary" id="wizardNext">
+                  Next Step
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- PANEL B: Course Explorer widget -->
+          <div class="hub-tab-content active" id="explorerTab">
+            <div class="explorer-search-wrapper">
+              <div class="search-input-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="courseSearch" placeholder="Search courses (e.g. software, networking, hardware)...">
+              </div>
+              <div class="filter-pills">
+                <button class="filter-pill active" data-filter="all">All Fields</button>
+                <button class="filter-pill" data-filter="software">Software</button>
+                <button class="filter-pill" data-filter="hardware">Hardware</button>
+                <button class="filter-pill" data-filter="networking">Networking</button>
+                <button class="filter-pill" data-filter="business">Business</button>
+              </div>
+            </div>
+
+            <!-- List where course items will be injected by JavaScript -->
+            <div class="courses-list" id="coursesList">
+              <!-- JS Injects elements here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. HQ Lagos & Nigeria Map Network Section -->
+    <section id="map-network">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">HQ & Network Coverage</h2>
+          <p>EDUGAP operates primarily from our Lagos headquarters with educational and literacy outreach coordinates extending to Abuja.</p>
+        </div>
+
+        <div class="map-layout">
+          <!-- Interactive Map visual vector column -->
+          <div class="hq-map-visual reveal-left">
+            <svg class="nigeria-map-svg" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Map title -->
+              <text x="250" y="30" fill="var(--text-muted)" font-family="Outfit" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0.1em" opacity="0.6">EDUGAP NETWORK — NIGERIA</text>
+
+              <!-- Schematic map geometry for Nigeria -->
+              <path d="M30 180 L80 150 L120 140 L160 160 L230 110 L300 120 L380 90 L450 130 L470 180 L440 240 L450 310 L410 330 L380 300 L320 320 L270 290 L220 310 L180 340 L120 300 L90 320 L80 270 L40 260 L30 180 Z" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="3" />
+
+              <!-- Niger & Benue rivers layout -->
+              <path d="M30 180 Q150 200 240 240 Q340 180 470 180" stroke="#93C5FD" stroke-width="3" fill="none" opacity="0.8"/>
+              <path d="M240 240 Q250 310 270 290" stroke="#93C5FD" stroke-width="3" fill="none" opacity="0.8"/>
+
+              <!-- River labels -->
+              <text x="130" y="195" fill="#60A5FA" font-family="Plus Jakarta Sans" font-size="9" font-style="italic" opacity="0.7">R. Niger</text>
+              <text x="252" y="275" fill="#60A5FA" font-family="Plus Jakarta Sans" font-size="8" font-style="italic" opacity="0.7">R. Benue</text>
+
+              <!-- Region labels -->
+              <text x="250" y="115" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.5">North-Central</text>
+              <text x="380" y="155" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.5">North-East</text>
+              <text x="110" y="180" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.5">South-West</text>
+              <text x="350" y="285" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.5">South-East</text>
+              <text x="200" y="310" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.5">South-South</text>
+
+              <!-- City dots (smaller, muted) -->
+              <circle cx="150" cy="250" r="3" fill="#CBD5E1"/>
+              <text x="158" y="253" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="8">Ibadan</text>
+              <circle cx="310" cy="265" r="3" fill="#CBD5E1"/>
+              <text x="318" y="268" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="8">Enugu</text>
+              <circle cx="380" cy="200" r="3" fill="#CBD5E1"/>
+              <text x="388" y="203" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="8">Jos</text>
+              <circle cx="130" cy="140" r="3" fill="#CBD5E1"/>
+              <text x="97" y="143" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="8">Sokoto</text>
+            </svg>
+            
+            <!-- Map marker pins placed absolutely -->
+            <div class="map-marker-pin marker-lagos" data-location="lagos">
+              <div class="pin-circle" style="background-color: var(--primary-light);"></div>
+              <div class="pin-label">Lagos (HQ)</div>
+            </div>
+            
+            <div class="map-marker-pin marker-abuja" data-location="abuja">
+              <div class="pin-circle"></div>
+              <div class="pin-label">Abuja Hub</div>
+            </div>
+          </div>
+
+          <!-- Active location address card column -->
+          <div class="map-details-card glass-panel reveal-right">
+            <h3 id="mapActiveTitle">Nigeria Headquarters (Lagos)</h3>
+            <p id="mapActiveDesc">EDUGAP Ventures Central Operations & Tech Hub. Handles corporate coordination, scholarship funds distribution, and computer certifications.</p>
+            
+            <ul class="address-info-list">
+              <li class="address-item">
+                <div class="address-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                </div>
+                <div class="address-item-text">
+                  <strong>Registered Office Address</strong>
+                  <span id="mapActiveAddress">Plot 15, Admiralty Way, Lekki Phase 1, Lagos, Nigeria.</span>
+                </div>
+              </li>
+
+              <li class="address-item">
+                <div class="address-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                </div>
+                <div class="address-item-text">
+                  <strong>Phone / Mobile Contact</strong>
+                  <span id="mapActivePhone">+234 (1) 456-7890</span>
+                </div>
+              </li>
+
+              <li class="address-item">
+                <div class="address-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <div class="address-item-text">
+                  <strong>Email Channels</strong>
+                  <span id="mapActiveEmail">lagos.hq@edugap.ng</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. About Us & Mission Section -->
+    <section id="about" style="background-color: var(--bg-secondary);">
+      <div class="container grid-2">
+        <div class="about-image-wrapper reveal-left">
+          <!-- Stylized geometric illustration of scholarship growth -->
+          <svg viewBox="0 0 400 400" class="hover-grow" style="width: 100%; height: auto; border-radius: var(--radius-lg);" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="400" rx="20" fill="url(#aboutBg)" />
+
+            <!-- Top-left label -->
+            <text x="30" y="35" fill="#FFF" font-family="Outfit" font-size="11" font-weight="700" letter-spacing="0.15em" opacity="0.4">EDUGAP VENTURES LTD</text>
+            <text x="30" y="50" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="9" opacity="0.35">Registered in Nigeria · Lagos HQ</text>
+
+            <!-- Circles mesh pattern representing education grid -->
+            <circle cx="200" cy="210" r="140" stroke="#FFF" stroke-width="2" stroke-dasharray="8 8" opacity="0.2"/>
+            <circle cx="200" cy="210" r="90" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+
+            <!-- Graduation cap icon inside circle -->
+            <path d="M200 155 L260 185 L200 215 L140 185 L200 155 Z" fill="var(--secondary-light)"/>
+            <path d="M155 193.5V230C155 245 175 255 200 255C225 255 245 245 245 230V193.5" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+            <path d="M240 205V240" stroke="var(--secondary-light)" stroke-width="4"/>
+            <!-- Central title text -->
+            <text x="200" y="285" fill="#FFF" font-family="Outfit" font-size="14" font-weight="700" text-anchor="middle" opacity="0.9">Education × Technology</text>
+            <text x="200" y="302" fill="#94A3B8" font-family="Plus Jakarta Sans" font-size="10" text-anchor="middle" opacity="0.6">Bridging the knowledge gap since inception</text>
+
+            <!-- Node: Digital Literacy (green) -->
+            <circle cx="100" cy="130" r="15" fill="#10B981"/>
+            <line x1="100" y1="130" x2="140" y2="185" stroke="#10B981" stroke-width="3" opacity="0.5"/>
+            <text x="100" y="105" fill="#10B981" font-family="Outfit" font-size="10" font-weight="700" text-anchor="middle">Digital</text>
+            <text x="100" y="116" fill="#10B981" font-family="Outfit" font-size="10" font-weight="700" text-anchor="middle">Literacy</text>
+
+            <!-- Node: IT Services (indigo) -->
+            <circle cx="310" cy="150" r="20" fill="#6366F1"/>
+            <line x1="310" y1="150" x2="260" y2="185" stroke="#6366F1" stroke-width="3" opacity="0.5"/>
+            <text x="310" y="122" fill="#818CF8" font-family="Outfit" font-size="10" font-weight="700" text-anchor="middle">IT Services</text>
+            <text x="310" y="133" fill="#818CF8" font-family="Outfit" font-size="9" text-anchor="middle">& Consulting</text>
+
+            <!-- Node: Scholarships (gold) -->
+            <circle cx="290" cy="300" r="15" fill="#F59E0B"/>
+            <line x1="290" y1="300" x2="245" y2="230" stroke="#F59E0B" stroke-width="3" opacity="0.5"/>
+            <text x="290" y="330" fill="#F59E0B" font-family="Outfit" font-size="10" font-weight="700" text-anchor="middle">Scholarships</text>
+            <text x="290" y="341" fill="#F59E0B" font-family="Outfit" font-size="9" text-anchor="middle">& Bursaries</text>
+
+            <!-- Node: Academy (emerald, lower-left) -->
+            <circle cx="95" cy="290" r="13" fill="#059669"/>
+            <line x1="95" y1="290" x2="155" y2="230" stroke="#059669" stroke-width="3" opacity="0.5"/>
+            <text x="95" y="318" fill="#34D399" font-family="Outfit" font-size="10" font-weight="700" text-anchor="middle">Academy</text>
+            <text x="95" y="329" fill="#34D399" font-family="Outfit" font-size="9" text-anchor="middle">Management</text>
+
+            <!-- Bottom stats bar -->
+            <rect x="30" y="360" width="340" height="28" rx="8" fill="#FFF" opacity="0.07"/>
+            <text x="65" y="378" fill="#FFF" font-family="Outfit" font-size="9" font-weight="700" text-anchor="middle" opacity="0.7">12k+ Students</text>
+            <line x1="120" y1="365" x2="120" y2="383" stroke="#FFF" stroke-width="1" opacity="0.15"/>
+            <text x="175" y="378" fill="#F59E0B" font-family="Outfit" font-size="9" font-weight="700" text-anchor="middle" opacity="0.7">₦250M Grants</text>
+            <line x1="230" y1="365" x2="230" y2="383" stroke="#FFF" stroke-width="1" opacity="0.15"/>
+            <text x="290" y="378" fill="#10B981" font-family="Outfit" font-size="9" font-weight="700" text-anchor="middle" opacity="0.7">24 Learning Hubs</text>
+
+            <defs>
+              <linearGradient id="aboutBg" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0d5c3a"/>
+                <stop offset="1" stop-color="#111827"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="about-content reveal-right">
+          <h2 class="section-title">Who We Are</h2>
+          <p class="lead">
+            EDUGAP Ventures Limited is an organisation with its headquarters in Lagos, established to bridge the critical gap between education and funding.
+          </p>
+          <p>
+            We were founded on the conviction that every student — regardless of geography or financial standing — deserves access to quality educational institutions, and meaningful financial support. Our mandate spans from admission support to top schools, colleges, and technical training centres, to setting up reading rooms, data processing hubs, and hostels that create immersive learning environments.
+          </p>
+          <p>
+            Beyond infrastructure, we actively provide educational loans, and student career support to students both within and outside Nigeria. We also serve as a bridge between academicians, industry professionals, and government agencies — organising certified training programmes across online, distance, and in-person formats.
+          </p>
+          
+          <!-- Key value metrics -->
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem;">
+            <div style="border-left: 3px solid var(--primary-light); padding-left: 1rem;">
+              <h4 style="font-size: 1.25rem; margin: 0 0 0.5rem 0; color: var(--primary-color);">Our Mission</h4>
+              <p style="font-size: 0.9rem; margin: 0;">To provide value and quality service to students and instituitions by promoting, administering, and giving access to loans for educational advancement.</p>
+            </div>
+            <div style="border-left: 3px solid var(--secondary-light); padding-left: 1rem;">
+              <h4 style="font-size: 1.25rem; margin: 0 0 0.5rem 0; color: var(--secondary-color);">Our Vision</h4>
+              <p style="font-size: 0.9rem; margin: 0;">To be Nigeria's leading force in educational empowerment — utilizing emerging technologies to build centres of learning, make loans available, and advance trade, commerce, art, science, and technology.</p>
+            </div>
+          </div>
+
+          <!-- Additional company pillars -->
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 1.5rem;">
+            <div style="border-left: 3px solid var(--accent-color); padding-left: 1rem;">
+              <h4 style="font-size: 1.25rem; margin: 0 0 0.5rem 0; color: var(--accent-color);">IT Excellence</h4>
+              <p style="font-size: 0.9rem; margin: 0;">We carry on the business of Information Technology services — delivering software consulting, networking solutions, and digital infrastructure to institutions and enterprises.</p>
+            </div>
+            <div style="border-left: 3px solid #EF4444; padding-left: 1rem;">
+              <h4 style="font-size: 1.25rem; margin: 0 0 0.5rem 0; color: #EF4444;">Student-First Values</h4>
+              <p style="font-size: 0.9rem; margin: 0;">Every programme we run — from coaching classes to loan assistance to hostel accommodations — is designed to remove barriers and put students on the path to success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Consultation Booking & Contact Section -->
+    <section id="contact" style="background-color: var(--bg-primary);">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Contact Left info Column -->
+          <div class="contact-info-panel reveal-left">
+            <div>
+              <div class="hero-tag contact-tag">Get in Touch</div>
+              <h2>Ready to Partner with EDUGAP?</h2>
+              <p>Whether you are an academic institution seeking a collaborative forum, a student looking for loan opportunities, a government agency aiming to coordinate educational programmes, or a school director in need of IT consultancy and infrastructure — EDUGAP Ventures is here to serve you.</p>
+              <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.5rem;">We provide consultancy across all disciplines, assist in setting up computer literacy centres and data processing hubs, and help institutions adopt certified technology training programmes. Reach out to us today to start the conversation.</p>
+            </div>
+
+            <div class="address-info-list" style="margin-top: 1.5rem;">
+              <div class="address-item">
+                <div class="address-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <div class="address-item-text">
+                  <strong>Corporate Inquiries</strong>
+                  <span>edugapventures@gmail.com</span>
+                </div>
+              </div>
+              <div class="address-item">
+                <div class="address-item-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                </div>
+                <div class="address-item-text">
+                  <strong>Loan & Financial Aid Office</strong>
+                  <span>edugapventures@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right Form Column -->
+          <div class="contact-form-panel glass-panel reveal-right">
+            
+            <!-- Success Overlay inside the form panel -->
+            <div class="form-success-overlay" id="formSuccessOverlay">
+              <div class="success-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              </div>
+              <h3>Message Submitted!</h3>
+              <p style="margin: 0.5rem 0 2rem 0; font-size: 0.95rem;">
+                Thank you for reaching out to EDUGAP Ventures. Our educational coordinators will review your details and respond within 24 business hours.
+              </p>
+              <button class="btn btn-outline" id="formResetBtn">Submit Another Message</button>
+            </div>
+
+            <!-- Main Interactive Form -->
+            <form id="consultationForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name / Entity *</label>
+                  <input type="text" id="fullName" class="form-control" placeholder="e.g. John Obi or Lekki Academy" required>
+                </div>
+                <div class="form-group">
+                  <label for="contactEmail">Email Address *</label>
+                  <input type="email" id="contactEmail" class="form-control" placeholder="e.g. contact@domain.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactPhone">Phone Number *</label>
+                  <input type="tel" id="contactPhone" class="form-control" placeholder="e.g. +234..." required>
+                </div>
+                <div class="form-group">
+                  <label for="interestCategory">Area of Interest *</label>
+                  <select id="interestCategory" class="form-control" required>
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="school-it">IT Consultancy for Schools</option>
+                    <option value="loan">Loan & Financial Aid Requests</option>
+                    <option value="course-enroll">Academy Training Courses</option>
+                    <option value="literacy-hub">Establish a Literacy Center</option>
+                    <option value="other">General Partnership</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="messageBody">Detailed Requirements / Inquiry *</label>
+                <textarea id="messageBody" class="form-control" placeholder="Provide a summary of the educational support or IT service scope you require..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Submit Consultation Request
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-top footer-grid">
+        
+        <!-- Col 1: Brand details -->
+        <div class="footer-brand">
+          <div class="logo-container">
+            <svg class="logo-icon-svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8L56 20L32 32L8 20L32 8Z" fill="#10B981" stroke="#FFF" stroke-width="1.5"/>
+              <path d="M14 23V38C14 44 22 48 32 48C42 48 50 44 50 38V23" stroke="#FFF" stroke-width="1.5"/>
+            </svg>
+            <div class="logo-text">
+              EDUGAP
+              <span style="color: #9ca3af;">Ventures Ltd</span>
+            </div>
+          </div>
+          <p>
+            Promoting, administering, and coordinating educational, technical, and computer literacy resources across Nigeria.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Services / Links -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Academy Management</a></li>
+            <li><a href="#services">Digital Learning Hubs</a></li>
+            <li><a href="#services">Scholarship Awards</a></li>
+            <li><a href="#services">IT & Systems Audit</a></li>
+            <li><a href="#services">Professional Forums</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Company / Links -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Our Vision</a></li>
+            <li><a href="#map-network">Network Coverage</a></li>
+            <li><a href="#contact">Consultation Office</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Newsletter -->
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to our newsletter to receive notices on new scholarship intakes and certification cohorts.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed! Thank you for joining the EDUGAP mailing list.'); this.reset();">
+            <div class="newsletter-input-group">
+              <input type="email" class="newsletter-input" placeholder="Email Address..." required>
+              <button type="submit" class="newsletter-btn">Join</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 EDUGAP Ventures Limited. All Rights Reserved. Lagos, Nigeria.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">RC Number: 1892305</a>
+          <a href="#contact">Contact Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CORE SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/portal.js"></script>
+</body>
+</html>

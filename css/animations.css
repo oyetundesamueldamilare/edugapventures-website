@@ -1,0 +1,131 @@
+/* Animations & Transitions - EDUGAP Ventures Limited */
+
+/* 1. Keyframes */
+
+/* Morphing Background Blob */
+@keyframes morphingBlob {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    border-radius: 50% 50% 30% 70% / 50% 60% 40% 60%;
+    transform: rotate(90deg) scale(1.1);
+  }
+  100% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    transform: rotate(180deg) scale(0.95);
+  }
+}
+
+/* Floating overlay badge animation */
+@keyframes floatBadge {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Pulse pin indicator on Lagos map */
+@keyframes pulsePin {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 12px rgba(245, 158, 11, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+}
+
+/* Standard Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 2. Scroll Reveal Animations (triggered via JS adding .active) */
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), 
+              transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-45px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), 
+              transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(45px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), 
+              transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Hover scales and shines */
+.hover-grow {
+  transition: transform var(--transition-normal) !important;
+}
+
+.hover-grow:hover {
+  transform: scale(1.03);
+}
+
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
+
+/* Ensure children reveal gracefully inside the initial view */
+.hero-section .reveal, 
+.hero-section .reveal-left, 
+.hero-section .reveal-right {
+  animation: fadeIn 0.8s ease onwards;
+}
+/* Safety Fallback: Make sure the initial viewport elements are visible instantly */
+header, 
+.hero-section, 
+.hero-section .reveal, 
+.hero-section .reveal-left, 
+.hero-section .reveal-right {
+  opacity: 1 !important;
+  transform: none !important;
+}
